@@ -146,7 +146,7 @@ jobs:
       - name: Install Node
         uses: actions/setup-node@v7
         with:
-          node-version: "24"
+          node-version: "26"
           registry-url: "https://registry.npmjs.org"
       # WARNING: npm rejects provenance unless `repository.url` in package.json
       # (taken from Cargo.toml) matches the GitHub repository running this job.
